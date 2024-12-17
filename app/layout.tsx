@@ -3,9 +3,10 @@ import { Geist, Geist_Mono } from "next/font/google";
 import localFont from 'next/font/local'
 
 import "./globals.css";
+import NavBar from "./components/NavBar";
 const bodoni = localFont({ src: [
   { path: './fonts/bodoni/bodoni-book-bt.ttf', weight: '400', style: 'normal'},
-  // { path: './fonts/bodoni/bodoniBT-Bold.otf', weight: '700', style: 'normal'},
+  { path: './fonts/bodoni/BodoniBT-Bold.otf', weight: '700', style: 'normal'},
 ],
   variable: '--font-bodoni'
 })
@@ -49,6 +50,7 @@ export default function RootLayout({
       <body
         className={`${bodoni.variable} ${lato.variable} antialiased`}
       >
+        <NavBar />
         {children}
       </body>
     </html>

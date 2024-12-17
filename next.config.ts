@@ -1,7 +1,6 @@
-import type { NextConfig } from "next";
+const withFonts = require('next-fonts');
 
-const nextConfig: NextConfig = {
-  /* config options here */
-};
+/** @type {import('next').NextConfig} */
+const nextConfig = withFonts({});
 
 export default nextConfig;
