@@ -12,6 +12,10 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        bodoni: ['var(--font-bodoni)'],
+        lato: ['var(--font-lato)'],
+      },
     },
   },
   plugins: [],
