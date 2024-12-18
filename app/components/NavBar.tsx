@@ -103,7 +103,7 @@ const NavBar = () => {
 
       {/* Sidebar Menu for Mobile */}
       <div
-        className={`fixed top-0 right-0 h-max pb-6 w-1/4 max-w-xs px-6 text-base bg-gray-800 text-white transform ${
+        className={`fixed top-0 right-0 h-max pb-6 w-1/4 max-w-xs px-6 font-lato font-light text-base bg-gray-800 text-white transform ${
           opennavbar ? 'translate-x-0' : 'translate-x-full'
         } transition-transform duration-300 ease-in-out z-50`}
       >

@@ -95,7 +95,7 @@ const Family = () => {
   ].map((service, index) => (
     <div
       key={index}
-      className={`${lato.className} flex flex-col items-center my-8 lg:my-4 h-8`}
+      className={`${lato.className} flex flex-col items-center justify-center my-8 lg:my-4 h-10`}
     >
       <h1 className="text-lg md:text-lg lg:text-base px-2"> {service} <p className={`border-b-2 mx-auto mt-5 border-slate-700 w-16 lg:border-b-0 ${index === 5 ? "last:border-b-0 md:border-b-0" : "border-b-2"} `}></p></h1>
     </div>
@@ -113,8 +113,8 @@ const Family = () => {
         Contact Us
       </Link>
     </div>
-    <h3 className="font-bodoni text-4xl sm:text-5xl  mb-4">Leadership Team</h3>
-    <div className="border-b-4 border-red-500 rounded-full w-24 mt-4 mx-auto"></div>
+    <h3 className="font-bodoni text-4xl sm:text-5xl md:text-6xl mb-4">Leadership Team</h3>
+    <div className="border-b-4 border-red-500 rounded-full w-24 lg:w-36 mt-4 mx-auto"></div>
     {/* Team Member */}
     <div className="h-[350px] mx-auto text-center">
       <div className={bodoni.className}>
