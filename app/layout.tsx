@@ -16,9 +16,9 @@ const lato = localFont({ src: [
   { path:'./fonts/lato/Lato-Bold.ttf', weight:'800', style:'normal' },
   { path:'./fonts/lato/Lato-Bold.ttf', weight:'800', style:'normal' },
   { path:'./fonts/lato/Lato-BoldItalic.ttf', weight:'800', style:'italic' },
-  { path:'./fonts/lato/Lato-Italic.ttf', weight:'500', style:'italic' },
+  { path:'./fonts/lato/Lato-Italic.ttf', weight:'300', style:'italic' },
   { path:'./fonts/lato/Lato-Light.ttf', weight:'300', style:'normal' },
-  { path:'./fonts/lato/Lato-Regular.ttf', weight:'400', style:'italic' },
+  { path:'./fonts/lato/Lato-Regular.ttf', weight:'400', style:'mormal' },
   { path:'./fonts/lato/Lato-Thin.ttf', weight:'100', style:'normal' },
   { path:'./fonts/lato/Lato-ThinItalic.ttf', weight:'100', style:'italic' }
 ], variable: '--font-lato'

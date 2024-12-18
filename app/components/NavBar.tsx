@@ -4,9 +4,7 @@ import '../globals.css';
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import closeIcon from '../../../public/close-white.svg';
-import exigentBase from '../../../public/exigent_base.jpg';
-import menuIcon from '../../../public/menu.svg';
+
 
 const NavBar = () => {
   const [opennavbar, setOpennavbar] = useState(false);
@@ -34,16 +32,16 @@ const NavBar = () => {
 
   return (
     <div className='sticky top-0 z-50 shadow-inner bg-white'>
-      <div className="items-center flex justify-between py-4 mx-auto px-8">
+      <div className="items-center flex justify-between py-6 mx-auto px-8 sm:max-w-2xl  xl:max-w-6xl md:max-w-3xl lg:max-w-4xl">
       {/* Logo */}
       <div>
         <Link href="/" className="w-24">
-          <Image src='/assets/logo.svg' alt="Logo" width={48} height={48} className='w-24' />
+          <Image src='/assets/logo.svg' alt="Logo" width={48} height={48} className='w-32' />
         </Link>
       </div>
 
       {/* Desktop Menu */}
-      <div className="hidden font-lato font-light md:flex md:flex-row md:items-center space-x-6 text-sm lg:text-base  text-gray-500 ">
+      <div className="hidden font-lato font-light md:flex md:flex-row md:items-center space-x-6 text-lg lg:text-lg  text-gray-500 ">
         <Link href="/about" className="group border-b-3 border-transparent">
           About
           <div className="border-b-2 rounded-full border-red-500 mt-1 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>

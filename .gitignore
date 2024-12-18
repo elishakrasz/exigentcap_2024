@@ -11,7 +11,7 @@
 !.yarn/versions
 
 # testing
-/coverage
+/coveragegit 
 
 # next.js
 /.next/
@@ -19,10 +19,12 @@
 
 # production
 /build
-
+/git dist
 # misc
 .DS_Store
 *.pem
+/dist
+dist
 
 # debug
 npm-debug.log*

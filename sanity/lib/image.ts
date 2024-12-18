@@ -1,7 +1,11 @@
 import createImageUrlBuilder from '@sanity/image-url'
 import { SanityImageSource } from "@sanity/image-url/lib/types/types";
 
+// const dataset = 'production'
+// const projectId = 't79x65c2'
+
 import { dataset, projectId } from '../env'
+
 
 // https://www.sanity.io/docs/image-url
 const builder = createImageUrlBuilder({ projectId, dataset })
