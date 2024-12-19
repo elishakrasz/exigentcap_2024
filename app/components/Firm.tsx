@@ -22,7 +22,7 @@ const Firm = () => {
           cellence.
         {/* </p>
         <p className="text-center md:text-left"> */}
-          {' '}It also serves as a place or item of value.
+          {' '}It also signifies a destination of value.
         </p>
       </div>
 

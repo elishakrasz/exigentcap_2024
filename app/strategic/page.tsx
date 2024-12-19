@@ -149,7 +149,7 @@ const Strategic = () => {
         </div>
 
         {/* Disclaimer */}
-        <div className={lato.className}>
+        <div className="font-lato">
           <h1 className="py-32 px-8 italic font-light text-gray-400 text-base">
             Services provided by Exigent Family Office Ltd. (Israel) in conjunction with professional third parties.
           </h1>

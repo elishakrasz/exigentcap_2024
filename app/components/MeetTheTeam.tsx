@@ -45,7 +45,7 @@ export default function MeetTheTeam({ persons }: { persons: any[] }) {
       <div className="relative px-6">
         {/* Button: Previous */}
         <button
-          className="absolute left-[1px] md:left-[-8px] lg:left-[-8px] top-[65%] transform -translate-y-1/2 z-10 p-2"
+          className="absolute left-[1px] md:left-[-8px] lg:left-[-8px] top-[55%] transform -translate-y-1/2 z-10 p-2"
           onClick={handlePrev}
         >
           <Image
@@ -101,7 +101,7 @@ export default function MeetTheTeam({ persons }: { persons: any[] }) {
         </div>
         {/* Button: Next */}
         <button
-          className="absolute right-[2px] md:right-[-8px] lg:right-[-12px] xl:right-[-10px] top-[65%] transform -translate-y-1/2 text-black z-10 p-2"
+          className="absolute right-[2px] md:right-[-8px] lg:right-[-12px] xl:right-[-10px] top-[55%] transform -translate-y-1/2 text-black z-10 p-2"
           onClick={handleNext}
         >
           <Image

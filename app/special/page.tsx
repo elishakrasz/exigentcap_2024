@@ -23,8 +23,8 @@ const Special = () => {
           {/* Text Section */}
           <div className="">
             <div className="lg:grid lg:grid-cols-6 mt-8">
-              <div className="lg:col-span-4 lg:max-w-[850px] md:mt-12">
-                <div className="max-w-[380px] md:max-w-[600px] mx-auto md:text-5xl md:text-center leading-10">
+              <div className="lg:col-span-4 lg:max-w-[850px] xl:max-w-[1200px] md:mt-12">
+                <div className="max-w-[380px] md:max-w-[600px] mx-auto md:text-5xl lg:max-w-7xl md:text-center leading-10">
                   <h3 className="font-bodoni text-center text-5xl md:font-normal md:text-6xl">
                   Special Situation Investing
                   </h3>
@@ -104,8 +104,8 @@ const Special = () => {
 
 <Investments />
        {/* Disclaimer */}
-       <div className={lato.className}>
-          <h1 className="mx-auto max-w-[380px] md:max-w-[500px] text-center py-32 px-8 italic font-light font-sans text-gray-400 text-xs md:text-base">
+       <div className="font-lato">
+          <h1 className="mx-auto max-w-[380px] md:max-w-full text-center py-32 px-8 italic font-light font-sans text-gray-400 text-xs md:text-sm">
             Services provided by Exigent Family Office Ltd. (Israel) in conjunction with professional third parties.
           </h1>
         </div>

@@ -16,31 +16,65 @@ export default async function Contact() {
       {/* Contact Title Section */}
       <div className="mx-auto text-center">
         <h1 className="text-5xl md:text-6xl font-bodoni">Contact</h1>
-        <div className="border-b-4 border-red-500 rounded-full w-24 mt-4 mx-auto"></div>
-        <div className="flex max-auto justify-center space-x-0 mt-5">
+        <div className="border-b-4 border-red-500 rounded-full w-24 md:w-28 mt-4 mx-auto"></div>
+        {/* <div className="hidden mt-1 pb-24 space-x-2 md:space-x-1 md:text-center mx-auto items-center md:mt-1  md:flex lg:hidden">
           <Link
-            href="htps://www.linkedin.com/company/exigentcapitalgroup/"
+            href="https://www.linkedin.com/company/exigentcapitalgroup/"
+            className="mr-3"
             target="_blank"
-            className="inline-block"
           >
             <Image
-              src="/assets/LinkedIn-Logo.svg"
+              src="/assets/LinkedIn.png"
               alt="LinkedIn"
-              width={110}
-              height={30}
-              className="w-[96px] h-6 md:w-24"
+              width={112}
+              height={28}
+              className="w-24 md:w-26 ml-1"
             />
           </Link>
-          <Image
-            src="/assets/Email.png"
-            alt="Email Icon"
-            width={36}
-            height={24}
-            className="w-6"
-          />
-          
-        </div>
+          <Link
+            href="mailto:info@exigentcapitalgroup.com"
+            className="mr-3 group relative"
+          >
+            <Image
+              src="/assets/Email.png"
+              alt="Email Icon"
+              width={24}
+              height={24}
+              className=""
+            />
+          </Link>
+        </div> */}
+
+<div className="hidden md:flex lg:hidden mt-4 md:space-x-0 justify-center items-center">
+  <Link
+    href="https://www.linkedin.com/company/exigentcapitalgroup/"
+    className="mr-3"
+    target="_blank"
+  >
+    <Image
+      src="/assets/LinkedIn.png"
+      alt="LinkedIn"
+      width={112}
+      height={28}
+      className="w-24 md:w-26 ml-1"
+    />
+  </Link>
+  <Link
+    href="mailto:info@exigentcapitalgroup.com"
+    className="mr-3 group relative"
+  >
+    <Image
+      src="/assets/Email.png"
+      alt="Email Icon"
+      width={24}
+      height={24}
+      className=""
+    />
+  </Link>
+</div>
       </div>
+
+
 
       {/* Main Content */}
       <div className="grid grid-cols-1 items-center lg:grid lg:grid-cols-12 lg:gap-2 pt-8 mx-auto md:max-w-7xl">

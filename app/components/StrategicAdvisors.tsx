@@ -15,8 +15,8 @@ const lato = Lato({
 const StrategicAdvisors = () => {
   return (
     <div className="mt-24 max-w-[85%] text-center mx-auto justify-items-center sm:max-w-[420px] md:max-w-3xl lg:max-w-5xl">
-      <h3 className="font-bodoni text-4xl justify-self-center mb-6 md:text-5xl">
-        Strategic Advisors & Domain Experts
+      <h3 className="font-bodoni text-4xl justify-self-center mb-6 md:text-5xl lg:text-6xl">
+        Domain Experts
       </h3>
       <div className="w-24 mx-auto justify-self-center mb-8 h-[3px] md:w-[160px] bg-red-500 rounded"></div>
 
@@ -34,7 +34,7 @@ const StrategicAdvisors = () => {
             </div>
             <p className="text-3xl mt-2 font-normal">Sir General Nick Carter</p>
             <div className={lato.className}>
-              <p className="text-[18px] font-light italic mt-2 text-gray-600">Strategic Advisory</p>
+              <p className="text-[18px] font-light italic mt-2 text-gray-600">Domain Experts</p>
               <p className="text-[18px] font-light mb-12 text-gray-600">Aerospace & Defence</p>
             </div>
           </div>
@@ -51,9 +51,9 @@ const StrategicAdvisors = () => {
                 height={188}
               />
             </div>
-            <p className="text-3xl mt-4 font-normal">Dr. Elie David</p>
+            <p className="text-3xl mt-4 font-normal">Dr. Eli David</p>
             <div className={lato.className}>
-              <p className="text-[18px] font-light italic mt-2 lg:mt-9 text-gray-600">Strategic Advisory</p>
+              <p className="text-[18px] font-light italic mt-2 lg:mt-9 text-gray-600">Domain Experts</p>
               <p className="text-[18px] font-light mb-12 text-gray-600">Artificial Intelligence</p>
             </div>
           </div>

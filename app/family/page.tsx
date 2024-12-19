@@ -22,7 +22,7 @@ const Family = () => {
           {/* Text Section */}
           <div className="">
             <div className="lg:grid lg:grid-cols-6 mt-8">
-              <div className="lg:col-span-4 lg:max-w-[850px] md:mt-12">
+              <div className="lg:col-span-4 lg:max-w-[850px] xl:max-w-[1200px] md:mt-12">
                 <div className="md:text-5xl md:text-center leading-10">
                   <h3 className="font-bodoni text-center text-5xl md:font-normal lg:text-6xl">
                     Family Office
@@ -126,7 +126,7 @@ const Family = () => {
           className="mt-10 w-[325px] object-contain lg:max-w-[400px] mx-auto"
         />
         <p className="text-4xl mb:text-3xl font-semibold">
-          Hon. Malcolm Hoenlein
+          Malcolm Hoenlein
         </p>
         <div className="font-lato">
           <p className="text-2xl font-light italic mt-2 text-gray-600">

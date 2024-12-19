@@ -50,7 +50,7 @@ const Investments = () => {
     <div className="mt-6 tracking-wide text-[18px] md:mt-9 md:text-lg md:w-full md:px-2  xl:leading-7">
       <h1 className={lato.className}>
         <span className="font-light italic">
-          We are GP partners with Bezos and Moros families in HighPost Capital and anchor investors in the firm's consumer-focused investment funds
+          We are GP partners with the Bezos and Moros families in HighPost Capital and anchor investors in the firm's consumer-focused investment funds
         </span>
       </h1>
     </div>
