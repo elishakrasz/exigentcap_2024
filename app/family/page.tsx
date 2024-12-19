@@ -130,7 +130,7 @@ const Family = () => {
         </p>
         <div className="font-lato">
           <p className="text-2xl font-light italic mt-2 text-gray-600">
-            Global Ambassador
+          Global Ambassador
           </p>
           <p className="text-2xl font-light mb-12 text-gray-600">
             Exigent Family Office

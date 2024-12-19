@@ -10,7 +10,7 @@ const lato = Lato({
 const Investments = () => {
     return (
         <div className="text-center mx-auto max-w-[460px] mt-24 md:max-w-5xl lg:mt-24 lg:max-w-6xl xl:max-w-6xl">
-            <h3 className="font-bodoni text-5xl px-6 md:px-36 md:text-5xl lg:text-5xl">
+            <h3 className="font-bodoni text-5xl px-6 md:px-36 md:text-5xl lg:text-6xl">
                 Notable Investments & Partnerships
             </h3>
 

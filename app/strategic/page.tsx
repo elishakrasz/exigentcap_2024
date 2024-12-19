@@ -107,7 +107,7 @@ const Strategic = () => {
         >
           Contact Us
         </Link>
-        <h3 className="font-bodoni text-4xl md:text-5xl mt-14 mb-4 md">Leadership Team</h3>
+        <h3 className="font-bodoni text-4xl md:text-5xl mt-14 mb-4 md">Domain Experts</h3>
         <div className="border-b-4 border-red-500 rounded-full w-24 mt-4 mx-auto"></div>
 
 

@@ -8,7 +8,7 @@ const Firm = () => {
       <div className="h-[3px] w-[80px] md:w-[120px] bg-red-500 rounded mx-auto mt-4"></div>
 
       <div className="text-xl md:text-xl md:max-w-[460px] font-lato font-light max-w-[360px] mx-auto sm:max-w-[380px] justify-self-center mt-6 ">
-        <p className="text-center md:max-w-[560px] lg:text-left">
+        <p className="text-center md:max-w-[560px] text-left">
           The Exigent symbol marks our striving for e
           <span>
               <Image
