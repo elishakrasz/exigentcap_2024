@@ -2,8 +2,8 @@ import Image from "next/image";
 
 const Firm = () => {
   return (
-    <div className="text-center justify-items-center mx-auto mt-12">
-      <h3 className="text-4xl font-bodoni mb-4 sm:text-5xl lg:text-6xl">Our Firm</h3>
+    <div className="text-center justify-items-center mx-auto mt-16">
+      <h3 className="text-5xl font-bodoni mb-4 sm:text-5xl lg:text-6xl">Our Firm</h3>
 
       <div className="h-[3px] w-[80px] md:w-[120px] bg-red-500 rounded mx-auto mt-4"></div>
 

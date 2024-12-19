@@ -16,9 +16,9 @@ export default function About() {
       <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-6 md:px-4">
       <div className="lg:hidden">
             <h2 className="text-6xl font-bodoni md:text-6xl font-normal text-center lg:text-left lg:text-5xl">About</h2>
-            <div className="h-1 w-14 md:w-16 bg-red-500 rounded mt-2 md:mt-4 mx-auto lg:mx-0"></div>
+            <div className="h-1 w-20 bg-red-500 rounded mt-2 md:mt-4 mx-auto lg:mx-0"></div>
           </div>
-        <div className="text-center md:col-span-1 mt-8">
+        <div className="text-center md:col-span-1 mt-4">
           <h1 className="sr-only">About Exigent</h1>
           <p  className={`font-bodoni inline px-1 mt-4 text-[44px] lg:text-4xl tracking-wider `}>
             e

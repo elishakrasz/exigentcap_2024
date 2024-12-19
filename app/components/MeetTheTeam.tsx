@@ -40,8 +40,8 @@ export default function MeetTheTeam({ persons }: { persons: any[] }) {
   };
   return (
     <div className="mt-32 text-center mx-auto max-w-[390px] md:max-w-[670px] lg:max-w-[960px] xl:max-w-[1260px] px-4">
-      <h3 className="font-bodoni text-5xl mb-5 sm:text-5xl">Meet the Team</h3>
-      <div className="redline mb-8 h-[3px] w-[120px] bg-red-500 rounded mx-auto"></div>
+      <h3 className="font-bodoni text-5xl mb-4 sm:text-5xl">Meet the Team</h3>
+      <div className="redline mb-10 h-[3px] w-[120px] bg-red-500 rounded mx-auto"></div>
       <div className="relative px-6">
         {/* Button: Previous */}
         <button

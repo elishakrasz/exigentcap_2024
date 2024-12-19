@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Contact = () => {
   return (
-    <div className="mt-12">
+    <div className="mt-16">
       {/* Contact Title Section */}
       <div className="mx-auto text-center">
         <h1 className="text-5xl md:text-6xl font-bodoni">Contact</h1>
@@ -64,15 +64,10 @@ const Contact = () => {
   </Link>
 </div>
       </div>
-
-
-
       {/* Main Content */}
-      <div className="grid grid-cols-1 items-center lg:grid lg:grid-cols-12 lg:gap-2 pt-8 mx-auto md:max-w-7xl">
+      <div className="grid grid-cols-1 items-center lg:grid lg:grid-cols-10 lg:mt-6 lg:gap-2 mx-auto md:max-w-7xl">
         
-        <div className='lg:col-span-1'/>
-        {/* Left Section: Image */}
-        <div className="items-center text-center max-auto lg:col-span-4">
+        <div className="items-center text-center max-auto lg:col-span-5 lg:text-right ">
           <Image
             src="/assets/Bunting.jpeg"
             alt="Bunting"
@@ -81,12 +76,16 @@ const Contact = () => {
             className="w-3/4 sm:w-[400px] lg:w-[550px] mx-auto"
           />
         </div>
+    
+      
+        {/* Left Section: Image */}
+        
 
         
 
         {/* Right Section: Contact Details */}
-        <div className="text-center lg:col-span-6 lg:mx-auto lg:ml-14 ">
-          <h1 className={`font-lato text-xl font-semibold mt-8 md:text-2xl lg: lg:text-center`}>Be in touch</h1>
+        <div className="text-center lg:col-span-5 lg:mx-auto lg:ml-2">
+          <h1 className={`font-lato text-xl font-semibold mt-8 md:text-2xl lg:text-center`}>Be in touch</h1>
           <div className="lg:grid lg:grid-cols-2 lg:text-right lg:mt-6 mb-8 lg:space-x-12">
             <div className="font-lato font-light mt-4">
               <p className="text-base lg:text-lg"><span className='font-normal'>Israel</span> 972-2-500-9450</p>

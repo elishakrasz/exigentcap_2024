@@ -11,8 +11,8 @@ const BusinessCard = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {/* Family Office */}
         <div className="flex flex-col items-center">
-          <h4 className="text-3xl sm:text-4xl font-bodoni text-gray-800 md:text-3xl lg:text-3xl xl:text-3xl">Family Office</h4>
-          <p className="text-lg sm:text-xl text-gray-400 mt-1">For high-net-worth families</p>
+          <h4 className="text-4xl font-bodoni text-gray-800 md:text-3xl lg:text-3xl xl:text-3xl">Family Office</h4>
+          <p className="text-xl sm:text-xl text-gray-400 mt-1">For high-net-worth families</p>
           <Image
             src="/assets/Birds.png"
             alt="Family Office"
@@ -25,8 +25,8 @@ const BusinessCard = () => {
 
         {/* Investment Products */}
         <div className="mt-10 flex flex-col items-center md:mt-0">
-          <h4 className="text-3xl sm:text-4xl font-bodoni text-gray-800 md:text-3xl lg:text-3xl xl:text-3xl">Investment Products</h4>
-          <p className="text-lg sm:text-xl text-gray-400 mt-2">For qualified investors</p>
+          <h4 className="text-4xl sm:text-4xl font-bodoni text-gray-800 md:text-3xl lg:text-3xl xl:text-3xl">Investment Products</h4>
+          <p className="text-xl sm:text-xl text-gray-400 mt-2">For qualified investors</p>
           <Image
             src="/assets/ShipA.jpg"
             alt="Investment Products"
@@ -40,8 +40,8 @@ const BusinessCard = () => {
 
         {/* Strategic Advisory */}
         <div className="mt-10 flex flex-col items-center md:mt-12 lg:mt-0 md:mx-auto md:text-center md:col-span-2 lg:col-span-1">
-          <h4 className="text-3xl sm:text-4xl font-bodoni text-gray-800 md:text-3xl">Strategic Advisory</h4>
-          <p className="text-lg sm:text-xl text-gray-400 mt-2">For businesses and corporates</p>
+          <h4 className="text-4xl sm:text-4xl font-bodoni text-gray-800 md:text-3xl">Strategic Advisory</h4>
+          <p className="text-xl sm:text-xl text-gray-400 mt-2">For businesses and corporates</p>
           <Image
             src="/assets/Cufflink.jpg"
             alt="Strategic Advisory"

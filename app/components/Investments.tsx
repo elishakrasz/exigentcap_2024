@@ -56,7 +56,7 @@ const Investments = () => {
     </div>
   </div>
   {/* Investment 3 */}
-  <div className="mt-12 text-base lg:mt-[1.75rem]">
+  <div className="mt-16 text-base lg:mt-[1.75rem]">
     <div>
       <Image
         src="/assets/investments/Insightec.png"
