@@ -35,8 +35,8 @@ const NavBar = () => {
       <div className="items-center flex justify-between py-6 mx-auto px-8 sm:max-w-2xl  xl:max-w-6xl md:max-w-3xl lg:max-w-4xl">
       {/* Logo */}
       <div>
-        <Link href="/" className="w-24">
-          <Image src='/assets/logo.svg' alt="Logo" width={48} height={48} className='w-32' />
+        <Link href="/" className="">
+          <img src='/assets/exigent_base.jpg' alt="Logo" width={48} height={48} className="w-32" />
         </Link>
       </div>
 
