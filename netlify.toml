@@ -1,14 +1,9 @@
 [build]
-  # Build command to build the Next.js app and export the static site.
-  command = "next build && next export"
-
-  # Directory where the static site will be published.
-  publish = "out"
-
+  base = "exigentcap_2024"
+  command = "npm run build"
+  publish = "dist"
 [[plugins]]
-  # Netlify plugin for Next.js integration.
   package = "@netlify/plugin-nextjs"
-
 [build.environment]
-  # Environment variable to skip the Next.js plugin's automatic handling.
+  NODE_VERSION = "22"
   NETLIFY_NEXT_PLUGIN_SKIP = "true"
