@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { urlForImage } from '../../sanity/lib/client';
 import { Bodoni_Moda, Lato } from 'next/font/google';
 import Link from 'next/link';
+import Card from './Card';
 const bodoni = Bodoni_Moda({
   subsets: ['latin'],
   display: 'swap',
@@ -13,21 +14,10 @@ const lato = Lato({
   style: ['normal', 'italic'],
   subsets: ['latin'],
 });
-export default function MeetTheTeam({ persons }: { persons: any[] }) {
+export default function GalleryTwo({ persons }: { persons: any[] }) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [visibleCards, setVisibleCards] = useState(1);
-  // Update visible cards based on screen size
-  const updateVisibleCards = () => {
-    if (window.innerWidth >= 1280) setVisibleCards(4); // Large screens
-    else if (window.innerWidth >= 1024) setVisibleCards(3); // Desktop
-    else if (window.innerWidth >= 768) setVisibleCards(2); // Tablet
-    else setVisibleCards(1); // Mobile
-  };
-  useEffect(() => {
-    updateVisibleCards();
-    window.addEventListener('resize', updateVisibleCards);
-    return () => window.removeEventListener('resize', updateVisibleCards);
-  }, []);
+ 
   const handlePrev = () => {
     setCurrentIndex((prev) =>
       prev === 0 ? Math.max(0, persons.length - visibleCards) : prev - 1
@@ -64,38 +54,7 @@ export default function MeetTheTeam({ persons }: { persons: any[] }) {
             }}
           >
             {persons.map((person, index) => (
-              <div
-                key={index}
-                className="flex-none px-0.5"
-                style={{
-                  width: `calc(${100 / visibleCards}% - 3px)`,
-                }}
-              >
-                <Link href={`/team?slug=${person.slug.current}`}>
-                  <div className="border border-gray-300 h-[350px] w-[275px] px-2 mx-auto hover:border-l-4 hover:border-l-[#F5101E]">
-                    <div className={bodoni.className}>
-                      <div className="mt-10 w-full flex justify-center">
-                        <Image
-                          src={urlForImage(person.image).quality(100).url()}
-                          alt={person.name}
-                          width={175}
-                          height={150}
-                          className="object-contain mx-auto"
-                        />
-                      </div>
-                      <p className="text-3xl font-normal mt-2">{person.name}</p>
-                      <div className={lato.className}>
-                        <p className="text-[18px] font-light italic mt-2 text-gray-600">
-                          {person.title}
-                        </p>
-                        <p className="text-[18px] font-light mb-12 text-gray-600">
-                          {person.subtitle}
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </Link>
-              </div>
+             <Card person={person} />
             ))}
           </div>
         </div>

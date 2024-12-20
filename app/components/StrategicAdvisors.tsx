@@ -15,7 +15,7 @@ const lato = Lato({
 const StrategicAdvisors = () => {
   return (
     <div className="mt-24 max-w-[85%] text-center mx-auto justify-items-center sm:max-w-[420px] md:max-w-3xl lg:max-w-7xl">
-      <h3 className="font-bodoni text-5xl justify-self-center mb-6 md:text-5xl lg:text-6xl">
+      <h3 className="font-bodoni text-5xl justify-self-center mb-6 md:text-5xl lg:text-6xl hover:text-[#F90002]">
         Domain Experts
       </h3>
       <div className="w-24 mx-auto justify-self-center mb-8 h-[3px] md:w-[160px] bg-red-500 rounded"></div>

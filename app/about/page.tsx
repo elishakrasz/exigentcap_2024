@@ -54,7 +54,7 @@ export default function About() {
           
           <Link
             href="/contact"
-            className="mt-8 lg:mt-16 inline-block mx-auto text-lg  rounded-full border px-6 py-1 border-gray-400 hover:bg-[#F90002] hover:text-white transition-colors"
+            className="mt-8 lg:mt-16 inline-block mx-auto text-lg  rounded-full border px-6 py-1 border-gray-400 hover:bg-[#F90002] hover:border-0 hover:text-white transition-colors"
           >
             Contact Us
           </Link>

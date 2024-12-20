@@ -15,7 +15,7 @@ export default async function Contact() {
     <div className="mt-12">
       {/* Contact Title Section */}
       <div className="mx-auto text-center">
-        <h1 className="text-5xl md:text-6xl font-bodoni">Contact</h1>
+        <h1 className="text-5xl md:text-6xl font-bodoni hover:text-[#F90002]">Contact</h1>
         <div className="border-b-4 border-red-500 rounded-full w-24 md:w-28 mt-4 mx-auto"></div>
         {/* <div className="hidden mt-1 pb-24 space-x-2 md:space-x-1 md:text-center mx-auto items-center md:mt-1  md:flex lg:hidden">
           <Link

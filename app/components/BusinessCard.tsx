@@ -20,7 +20,14 @@ const BusinessCard = () => {
             height={200}
             className="w-2/3 mt-6 md:mt-9 lg:w-[250px] object-contain"
           />
-        <Button />
+        <div>
+         <Link
+          href="/family"
+          className="text-base inline-block mt-4 hover:bg-[#F5101E] hover:text-white hover:border-0 font-sans font-normal md:text-base border-2 border-gray-400 py-1 rounded-full px-6"
+        >
+          Learn More
+        </Link>
+    </div>
         </div>
 
         {/* Investment Products */}
@@ -35,7 +42,14 @@ const BusinessCard = () => {
             className="w-2/3 mt-2 md:mt-1 lg:w-[250px] object-contain"
           />
           
-        <Button />
+          <div>
+         <Link
+          href="/special"
+          className="text-base inline-block mt-4 hover:bg-[#F5101E] hover:text-white hover:border-0 font-sans font-normal md:text-base border-2 border-gray-400 py-1 rounded-full px-6"
+        >
+          Learn More
+        </Link>
+    </div>
         </div>
 
         {/* Strategic Advisory */}
@@ -49,7 +63,14 @@ const BusinessCard = () => {
             height={200}
             className="w-2/3 mt-6 md:mt-6 lg:mt-9 lg:w-[210px] object-contain"
           />
-         <Button />
+         <div>
+         <Link
+          href="/strategic"
+          className="text-base inline-block mt-4 hover:bg-[#F5101E] hover:text-white hover:border-0 font-sans font-normal md:text-base border-2 border-gray-400 py-1 rounded-full px-6"
+        >
+          Learn More
+        </Link>
+    </div>
         </div>
       </div>
     </div>

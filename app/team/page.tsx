@@ -5,6 +5,7 @@ import { Bodoni_Moda, Lato } from 'next/font/google';
 import { type SanityDocument } from 'next-sanity';
 import Link from 'next/link';
 import Gallery from '../components/Gallery';
+import GalleryTwo from '../components/GalleryTwo';
 
 const bodoni = Bodoni_Moda({
   subsets: ['latin'],
@@ -54,8 +55,8 @@ export default async function Team() {
         {persons.map((person) => (
           <a href={`/team?slug=${person.slug.current}`} key={person._id} className="block pb-4 mt-8">
             <div className="px-4 text-center mb-4">
-              <div className={bodoni.className}>
-                <div className="relative w-60 h-60 mx-auto">
+              <div className="font-bodoni">
+                <div className="relative w-40 h-40 mx-auto">
                   <Image
                     src={urlForImage(person.image).quality(100).url()}
                     alt={person.name}
@@ -65,7 +66,7 @@ export default async function Team() {
                   />
                 </div>
                 <p className="text-3xl mt-4">{person.name}</p>
-                <div className={lato.className}>
+                <div className="font-lato">
                   <p className="italic mt-1 text-gray-600 font-light text-lg">{person.title}</p>
                   <p className="text-gray-600 font-light text-lg">{person.subtitle}</p>
                 </div>
@@ -81,7 +82,7 @@ export default async function Team() {
             <Link href={`/team?slug=${other.slug.current}`} key={other._id} className="pb-4">
               <div className="px-4 text-center mb-4">
                 <div className={bodoni.className}>
-                  <div className="relative w-60 h-60 mx-auto">
+                  <div className="relative w-40 h-40 mx-auto">
                     <Image
                       src={urlForImage(other.image).quality(100).url()}
                       alt={other.name}
@@ -90,8 +91,8 @@ export default async function Team() {
                       className="rounded-full object-cover"
                     />
                   </div>
-                  <p className="font-semibold text-3xl mt-4">{other.name}</p>
-                  <div className={lato.className}>
+                  <p className=" text-3xl mt-4">{other.name}</p>
+                  <div className="font-lato">
                     <p className="italic mt-1 text-gray-600 font-light text-lg">{other.title}</p>
                     <p className="text-gray-600 font-light text-lg">{other.subtitle}</p>
                   </div>

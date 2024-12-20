@@ -24,7 +24,7 @@ const Strategic = () => {
             <div className="lg:grid lg:grid-cols-6 mt-8">
               <div className="lg:col-span-4 lg:max-w-[850px] md:mt-12">
                 <div className=" md:text-center leading-10">
-                  <h3 className="font-bodoni text-center text-5xl sm:text-5xl md:font-normal lg:text-6xl">
+                  <h3 className="font-bodoni text-center text-5xl sm:text-5xl md:font-normal lg:text-6xl hover:text-[#F90002]">
                     Strategic Advisory
                   </h3>
                   <p className="text-center text-lg font-light mt-2 text-gray-500 leading-relaxed">
@@ -103,11 +103,11 @@ const Strategic = () => {
       <div className="mt-2 lg:mt-6 text-center mx-auto justify-items-center">
         <Link
           href="/contact"
-          className="text-lg inline-block md:mt-4 hover:bg-[#F5101E] hover:text-white border-2 border-gray-400 py-1 rounded-full px-6"
+          className="text-lg inline-block md:mt-4 hover:bg-[#F5101E] hover:text-white border-2 hover:border-0 border-gray-400 py-1 rounded-full px-6"
         >
           Contact Us
         </Link>
-        <h3 className="font-bodoni text-4xl md:text-5xl mt-14 mb-4 md">Domain Experts</h3>
+        <h3 className="font-bodoni text-4xl md:text-5xl mt-14 mb-4 md hover:text-[#F90002]">Domain Experts</h3>
         <div className="border-b-4 border-red-500 rounded-full w-24 mt-4 mx-auto"></div>
 
 

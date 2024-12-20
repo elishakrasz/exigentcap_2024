@@ -41,7 +41,7 @@ const CustomPortableText = ({ value }: { value: any }) => {
 
 const Card = ({ person }) => {
     return (
-        <div className="flex justify-center items-center min-h-screen">
+        <div className="flex justify-center items-center">
             <div className=" py-6 w-[400px] md:w-[640px] lg:w-[780px]">
                 <div className="md:mx-auto md:grid md:grid-cols-4">
                     {/* Left Column */}

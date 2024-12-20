@@ -40,19 +40,19 @@ export default function Gallery({ persons }: { persons: any[] }) {
     };
 
     return (
-        <div className="flex justify-center items-center min-h-screen relative">
+        <div className="flex justify-center items-center mt-16  max-w-7xl relative">
             {/* Previous Button */}
             <button
-                className="absolute left-4 top-1/2 transform -translate-y-1/2 z-10 p-2"
-                onClick={handlePrev}
-            >
-                <Image
-                    src="/assets/arrow_left.png"
-                    alt="Previous"
-                    width={24}
-                    height={24}
-                />
-            </button>
+                     className="absolute left-[1px] md:left-[-8px] lg:left-[-8px] top-[55%] transform -translate-y-1/2 z-10 p-2"
+                     onClick={handlePrev}
+                   >
+                     <Image
+                       src="/assets/arrow_left.png"
+                       alt="Previous Arrow"
+                       width={22}
+                       height={22}
+                     />
+                   </button>
 
             {/* Visible Card */}
             <div className="w-full max-w-[400px] md:max-w-[640px] lg:max-w-[720px] flex justify-center">
@@ -60,17 +60,17 @@ export default function Gallery({ persons }: { persons: any[] }) {
             </div>
 
             {/* Next Button */}
-            <button
-                className="absolute right-4 top-1/2 transform -translate-y-1/2 z-10 p-2"
-                onClick={handleNext}
-            >
-                <Image
-                    src="/assets/arrow_right.png"
-                    alt="Next"
-                    width={24}
-                    height={24}
-                />
-            </button>
+             <button
+                      className="absolute right-[2px] md:right-[-8px] lg:right-[-12px] xl:right-[-10px] top-[55%] transform -translate-y-1/2 text-black z-10 p-2"
+                      onClick={handleNext}
+                    >
+                      <Image
+                        src="/assets/arrow_right.png"
+                        alt="Next Arrow"
+                        width={22}
+                        height={22}
+                      />
+                    </button>
         </div>
     );
 }
