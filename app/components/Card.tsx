@@ -39,21 +39,23 @@ const CustomPortableText = ({ value }: { value: any }) => {
     );
 };
 
+
+
 const Card = ({ person }) => {
     return (
         <div className="flex justify-center items-center">
-            <div className=" py-6 w-[400px] md:w-[640px] lg:w-[780px]">
-                <div className="md:mx-auto md:grid md:grid-cols-4">
+            <div className="py-6 w-[400px] md:w-[640px] lg:w-[780px] h-[480px] sm:h-[520px]">
+                <div className="md:mx-auto md:grid md:grid-cols-4 h-full">
                     {/* Left Column */}
                     <div className="mx-auto md:col-span-1 flex justify-center items-center">
-                        <div className="">
+                        <div>
                             <div className={`font-bodoni mx-auto items-center`}>
                                 <div className="flex justify-center items-center">
                                     <Image
                                         src={urlForImage(person.image).quality(100).url()}
                                         alt={person.name}
-                                        width={225} // Increased by 50%
-                                        height={225} // Increased by 50%
+                                        width={225}
+                                        height={225}
                                         className="rounded-full object-cover"
                                     />
                                 </div>
@@ -66,7 +68,6 @@ const Card = ({ person }) => {
                                         {person.subtitle}
                                     </p>
                                     <div className="flex items-center justify-center my-2 px-6">
-                                        {/* Add LinkedIn Section */}
                                         <div className="h-[2px] bg-gray-300 w-12"></div>
                                         <span className="mx-2">
                                             <Image
@@ -83,10 +84,10 @@ const Card = ({ person }) => {
                             </div>
                         </div>
                     </div>
+
                     {/* Right Column */}
-                    <div className="max-w-[400px] px-4 mx-auto text-left md:mx-0 md:col-span-3 md:max-w-full md:h-64 md:px-10">
-                        {/* Render description using PortableText */}
-                        <div className="h-full md:h-76 overflow-auto">
+                    <div className="max-w-[400px] px-4 mx-auto text-left md:mx-0 md:mt-14 md:col-span-3 md:max-w-full h-full overflow-hidden md:px-10">
+                        <div className="h-44 md:h-72 overflow-auto">
                             {person.description?.map((block, index) => (
                                 <CustomPortableText key={block._key || index} value={[block]} />
                             ))}

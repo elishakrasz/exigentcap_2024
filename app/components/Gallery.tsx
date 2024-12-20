@@ -40,10 +40,10 @@ export default function Gallery({ persons }: { persons: any[] }) {
     };
 
     return (
-        <div className="flex justify-center items-center mt-16  max-w-7xl relative">
+        <div className="flex justify-center items-center mt-16 mx-auto max-w-[480px] md:max-w-[740px] lg:max-w-[880px] h-[700px] md:h-full relative">
             {/* Previous Button */}
             <button
-                     className="absolute left-[1px] md:left-[-8px] lg:left-[-8px] top-[55%] transform -translate-y-1/2 z-10 p-2"
+                     className="absolute left-[1px] md:left-[-8px] lg:left-[-8px] md:top-[45%] transform -translate-y-1/2 z-10 p-2"
                      onClick={handlePrev}
                    >
                      <Image
@@ -61,7 +61,7 @@ export default function Gallery({ persons }: { persons: any[] }) {
 
             {/* Next Button */}
              <button
-                      className="absolute right-[2px] md:right-[-8px] lg:right-[-12px] xl:right-[-10px] top-[55%] transform -translate-y-1/2 text-black z-10 p-2"
+                      className="absolute right-[2px] md:right-[-8px] lg:right-[-12px] xl:right-[-10px] md:top-[45%] transform -translate-y-1/2 text-black z-10 p-2"
                       onClick={handleNext}
                     >
                       <Image

@@ -5,7 +5,6 @@ import { Bodoni_Moda, Lato } from 'next/font/google';
 import { type SanityDocument } from 'next-sanity';
 import Link from 'next/link';
 import Gallery from '../components/Gallery';
-import GalleryTwo from '../components/GalleryTwo';
 
 const bodoni = Bodoni_Moda({
   subsets: ['latin'],
@@ -40,8 +39,8 @@ export default async function Team() {
   
   return (
     <div className="mt-8 text-center mx-auto">
-      <div className="mx-auto max-w-3xl lg:max-w-4xl">
-        <h3 className="font-bodoni text-2xl mx-10 md:text-2xl lg:text-4xl text-gray-700">
+      <div className="mx-auto max-w-[550px] md:max-w-3xl lg:max-w-4xl">
+        <h3 className="font-bodoni text-3xl mx-10 lg:text-4xl text-gray-700">
           An Experienced and Dedicated Team at Your Service
         </h3>
         <div className="h-[3px] w-[120px] bg-red-500 rounded mx-auto mt-4"></div>
@@ -51,7 +50,7 @@ export default async function Team() {
         <Gallery persons={persons_gallery} />
       </Suspense>
       {/* Main Team */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mx-auto  max-w-7xl px-12">
+      <div className="mt-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mx-auto  max-w-7xl px-12">
         {persons.map((person) => (
           <a href={`/team?slug=${person.slug.current}`} key={person._id} className="block pb-4 mt-8">
             <div className="px-4 text-center mb-4">

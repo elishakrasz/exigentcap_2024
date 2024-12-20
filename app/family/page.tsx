@@ -83,13 +83,39 @@ const Family = () => {
       
       </div>
 
-      <div className="flex flex-row  text-sm  lg:mt-16 space-x-4 max-w-[960px] align-top mx-auto text-center border-slate-600">
+      <div className="hidden md:flex md:flex-row text-sm  md:mt-16 space-x-4 max-w-[960px] align-top mx-auto text-center border-slate-600">
   <p className="px-2">Investment and Wealth Management</p>
   <p className="px-4 border-l-2 border-slate-600 h-10">Comprehensive Reporting</p>
   <p className="pl-4 border-l-2 border-slate-600">Tax and Estate Planning</p>
   <p className="pl-4 border-l-2 border-slate-600">Philanthropic Advisory</p>
   <p className="px-2 border-l-2 border-slate-600">Family Governance and Succession Planning</p>
   <p className="px-2 border-l-2 border-slate-600">Networking and Unique Events</p>
+</div>
+<div className="md:hidden text-lg font-lato mt-10 space-y-4 max-w-[960px] align-top mx-auto text-center">
+  <div>
+    <p className="px-2">Investment and Wealth Management</p>
+    <div className="border-b-2 border-slate-600 w-16 mx-auto mt-4"></div>
+  </div>
+  <div>
+    <p className="px-2">Comprehensive Reporting</p>
+    <div className="border-b-2 border-gray-600 w-16 mx-auto mt-4"></div>
+  </div>
+  <div>
+    <p className="px-2">Tax and Estate Planning</p>
+    <div className="border-b-2 border-slate-600 w-16 mx-auto mt-4"></div>
+  </div>
+  <div>
+    <p className="px-2">Philanthropic Advisory</p>
+    <div className="border-b-2 border-slate-600 w-16 mx-auto mt-4"></div>
+  </div>
+  <div>
+    <p className="px-2">Family Governance and Succession Planning</p>
+    <div className="border-b-2 border-slate-600 w-16 mx-auto mt-4"></div>
+  </div>
+  <div>
+    <p className="px-2">Networking and Unique Events</p>
+    
+  </div>
 </div>
 
  
@@ -115,7 +141,7 @@ const Family = () => {
 
       {/* Leadership Section */}
 <div>
-  <div className="mt-10 mb:mt-16 lg:mt-20 text-center mx-auto justify-items-center">
+  <div className="mt-16 md:mt-20 text-center mx-auto justify-items-center">
     <div className="mb:mt-8 mb-12">
       <Link
         href="/contact"
@@ -124,10 +150,10 @@ const Family = () => {
         Contact Us
       </Link>
     </div>
-    <h3 className="md:mt-24 font-bodoni text-4xl sm:text-5xl md:text-6xl mb-4 hover:text-[#F90002]">Leadership Team</h3>
-    <div className="border-b-4 border-red-500 rounded-full w-24 lg:w-48 mt-4 mx-auto"></div>
+    <h3 className="mt-24 md:mt-24 font-bodoni text-4xl sm:text-5xl md:text-6xl mb-4 hover:text-[#F90002]">Leadership Team</h3>
+    <div className="border-b-4 border-red-500 rounded-full w-36 md:w-48 mt-4 mx-auto"></div>
     {/* Team Member */}
-    <div className="h-[350px] mx-auto text-center lg:mt-16">
+    <div className="h-[350px] mx-auto text-center mt-16">
       <div className={bodoni.className}>
         <Image
           src="/assets/team/Hoenlein.png"
